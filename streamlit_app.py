@@ -2,7 +2,7 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 from datetime import datetime, timedelta
-from fpdf import FPDF
+
 
 # --- CONFIGURATION DE LA PAGE ---
 st.set_page_config(page_title="Gestion Facturation & Recouvrement", layout="wide", page_icon="🇬🇳")
